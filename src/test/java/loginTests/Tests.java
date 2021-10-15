@@ -16,6 +16,8 @@ import java.util.concurrent.TimeUnit;
 
 public class Tests {
 
+
+
     WebDriver driver;
     String baseUrl;
 
@@ -46,7 +48,7 @@ public class Tests {
     }
 
     @Test
-    public void registerNewUser(){
+    public void testRegisterNewUser(){
         driver.get(baseUrl);
         WebElement signInButton = driver.findElement(By.className("login"));
         signInButton.click();
@@ -74,13 +76,13 @@ public class Tests {
         gender.click();
 
         WebElement firstName = driver.findElement(By.xpath("//input[@id='customer_firstname']"));
-        firstName.sendKeys(randomString);
+        firstName.sendKeys("FirstName");
 
         WebElement lastName = driver.findElement(By.id("customer_lastname"));
-        lastName.sendKeys(randomString.append(Math.random()));
+        lastName.sendKeys("LastName");
 
         WebElement password = driver.findElement(By.id("passwd"));
-        lastName.sendKeys("newUserpassword");
+        password.sendKeys("newUserpassword");
 
         Select day = new Select(driver.findElement(By.id("days")));
         day.selectByValue(String.valueOf(rand.nextInt(31-1) + 1));
@@ -89,7 +91,43 @@ public class Tests {
         month.selectByIndex(rand.nextInt(12 - 1) + 1);
 
         Select year = new Select(driver.findElement(By.id("years")));
-        month.selectByIndex(rand.nextInt(121 - 1) + 1);
+        year.selectByIndex(rand.nextInt(121 - 1) + 1);
+
+        WebElement newsletter = driver.findElement(By.id("newsletter"));
+        newsletter.click();
+
+//        WebElement firstNameField = driver.findElement(By.id ("firstname"));
+//        firstNameField.sendKeys("TestFirstName");
+//
+//        WebElement lastNameField = driver.findElement(By.id("lastname"));
+//        lastNameField.sendKeys("TestLastName");
+
+        WebElement address = driver.findElement(By.id("address1"));
+        address.sendKeys("Test street " /*+ rand.nextInt(100)*/);
+
+        WebElement city = driver.findElement(By.id("city"));
+        city.sendKeys("Test City");
+
+        Select state = new Select(driver.findElement(By.id("id_state")));
+        state.selectByIndex(rand.nextInt(54 - 1) + 1);
+
+        WebElement postcode = driver.findElement(By.id("postcode"));
+        postcode.sendKeys(String.valueOf(rand.nextInt(99999 - 10000) + 10000));
+
+        Select country = new Select(driver.findElement(By.id("id_country")));
+        country.selectByValue("21");
+
+        WebElement mobile = driver.findElement(By.id("phone_mobile"));
+        mobile.sendKeys("+126754378921");
+
+        WebElement alias = driver.findElement(By.id("alias"));
+        alias.sendKeys("My address alias");
+
+        WebElement registerButton = driver.findElement(By.id("submitAccount"));
+        registerButton.click();
+
+        Assert.assertEquals(driver.getCurrentUrl(), "http://automationpractice.com/index.php?controller=my-account");
+
 
 
 
