@@ -5,6 +5,7 @@
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/loginTests/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/loginTests/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/loginTests/Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/loginTests/Tests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
