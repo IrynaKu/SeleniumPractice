@@ -1,5 +1,6 @@
 package loginTests;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -17,13 +18,13 @@ import java.util.concurrent.TimeUnit;
 public class Tests {
 
 
-
     WebDriver driver;
     String baseUrl;
 
     @BeforeMethod
     public void Set() {
-        System.setProperty("webdriver.chrome.driver", "C:/Users/nkozh/Desktop/Ira/Webdriver/chromedriver.exe");
+       // System.setProperty("webdriver.chrome.driver", "C:/Users/nkozh/Desktop/Ira/Webdriver/chromedriver.exe");
+        WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
@@ -48,7 +49,7 @@ public class Tests {
     }
 
     @Test
-    public void testRegisterNewUser(){
+    public void testRegisterNewUser() {
         driver.get(baseUrl);
         WebElement signInButton = driver.findElement(By.className("login"));
         signInButton.click();
@@ -60,7 +61,7 @@ public class Tests {
         StringBuilder randomString = new StringBuilder();
         Random rand = new Random();
 
-        for (int i = 0; i < 8; i++){
+        for (int i = 0; i < 8; i++) {
             randomString.append((char) (97 + rand.nextInt(25)));
         }
 
@@ -85,7 +86,7 @@ public class Tests {
         password.sendKeys("newUserpassword");
 
         Select day = new Select(driver.findElement(By.id("days")));
-        day.selectByValue(String.valueOf(rand.nextInt(31-1) + 1));
+        day.selectByValue(String.valueOf(rand.nextInt(31 - 1) + 1));
 
         Select month = new Select(driver.findElement(By.id("months")));
         month.selectByIndex(rand.nextInt(12 - 1) + 1);
@@ -127,14 +128,6 @@ public class Tests {
         registerButton.click();
 
         Assert.assertEquals(driver.getCurrentUrl(), "http://automationpractice.com/index.php?controller=my-account");
-
-
-
-
-
-
-
-
 
     }
 

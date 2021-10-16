@@ -1,5 +1,6 @@
 package searchTests;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -20,7 +21,8 @@ public class SearchTests {
 
     @BeforeMethod
     public void Set() {
-        System.setProperty("webdriver.chrome.driver", "C:/Users/nkozh/Desktop/Ira/Webdriver/chromedriver.exe");
+//
+        WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
