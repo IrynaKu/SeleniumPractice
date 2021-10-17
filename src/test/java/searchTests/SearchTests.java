@@ -29,6 +29,11 @@ public class SearchTests {
         baseUrl = "http://automationpractice.com/";
     }
 
+    @AfterMethod
+    private void SetDown() {
+        driver.quit();
+    }
+
 
     @Test
     public void checkSearch() {
@@ -48,10 +53,7 @@ public class SearchTests {
         }
     }
 
-    @AfterMethod
-    private void SetDown() {
-        driver.quit();
-    }
+
 }
 
 

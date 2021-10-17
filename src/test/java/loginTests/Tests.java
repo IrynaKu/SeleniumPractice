@@ -23,12 +23,17 @@ public class Tests {
 
     @BeforeMethod
     public void Set() {
-       // System.setProperty("webdriver.chrome.driver", "C:/Users/nkozh/Desktop/Ira/Webdriver/chromedriver.exe");
+        // System.setProperty("webdriver.chrome.driver", "C:/Users/nkozh/Desktop/Ira/Webdriver/chromedriver.exe");
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         baseUrl = "http://automationpractice.com/";
+    }
+
+    @AfterMethod
+    private void SetDown() {
+        driver.quit();
     }
 
     @Test
@@ -131,8 +136,5 @@ public class Tests {
 
     }
 
-    @AfterMethod
-    private void SetDown() {
-        driver.quit();
-    }
+
 }

@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e23fd1ea-9cee-4979-818d-fcfb2920cb7e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/SmokeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/loginTests/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/loginTests/Tests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/searchTests/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/searchTests/SearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/loginTests/Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/loginTests/Tests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/searchTests/SearchTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/searchTests/SearchTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="TestNG.SearchTests.checkSearch">
+  <component name="RunManager" selected="TestNG.SmokeTest.smokeTest">
     <configuration name="SearchTests.checkSearch" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumLearn" />
       <extension name="coverage">
@@ -46,6 +48,18 @@
       <option name="PACKAGE_NAME" value="searchTests" />
       <option name="MAIN_CLASS_NAME" value="searchTests.SearchTests" />
       <option name="METHOD_NAME" value="checkSearch" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmokeTest.smokeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumLearn" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SmokeTest" />
+      <option name="METHOD_NAME" value="smokeTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -85,6 +99,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SmokeTest.smokeTest" />
         <item itemvalue="TestNG.SearchTests.checkSearch" />
         <item itemvalue="TestNG.Tests.registerNewUser" />
         <item itemvalue="TestNG.Tests.testEnterExistingEmail" />
@@ -117,38 +132,42 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="122" key="GridCell.Tab.0.bottom" timestamp="1634419006034">
+    <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1634474612919">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="122" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1634419006034" />
-    <state width="1237" height="122" key="GridCell.Tab.0.center" timestamp="1634419006034">
+    <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1634474612919" />
+    <state width="1237" height="115" key="GridCell.Tab.0.bottom" timestamp="1634476212675">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="122" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1634419006034" />
-    <state width="1237" height="122" key="GridCell.Tab.0.left" timestamp="1634419006033">
+    <state width="1237" height="115" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1634476212675" />
+    <state width="1237" height="115" key="GridCell.Tab.0.center" timestamp="1634476212675">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="122" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1634419006033" />
-    <state width="1237" height="122" key="GridCell.Tab.0.right" timestamp="1634419006034">
+    <state width="1237" height="115" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1634476212675" />
+    <state width="1237" height="115" key="GridCell.Tab.0.left" timestamp="1634476212675">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="122" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1634419006034" />
-    <state width="1237" height="83" key="GridCell.Tab.1.bottom" timestamp="1634070734759">
+    <state width="1237" height="115" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1634476212675" />
+    <state width="1237" height="115" key="GridCell.Tab.0.right" timestamp="1634476212675">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="83" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1634070734759" />
-    <state width="1237" height="83" key="GridCell.Tab.1.center" timestamp="1634070734759">
+    <state width="1237" height="115" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1634476212675" />
+    <state width="1237" height="19" key="GridCell.Tab.1.bottom" timestamp="1634475486556">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="83" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1634070734759" />
-    <state width="1237" height="83" key="GridCell.Tab.1.left" timestamp="1634070734759">
+    <state width="1237" height="19" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1634475486556" />
+    <state width="1237" height="19" key="GridCell.Tab.1.center" timestamp="1634475486556">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="83" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1634070734759" />
-    <state width="1237" height="83" key="GridCell.Tab.1.right" timestamp="1634070734759">
+    <state width="1237" height="19" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1634475486556" />
+    <state width="1237" height="19" key="GridCell.Tab.1.left" timestamp="1634475486556">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="83" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1634070734759" />
+    <state width="1237" height="19" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1634475486556" />
+    <state width="1237" height="19" key="GridCell.Tab.1.right" timestamp="1634475486556">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="19" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1634475486556" />
     <state x="37" y="0" key="SettingsEditor" timestamp="1633986027099">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -163,11 +182,16 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/loginTests/Tests.java</url>
-          <line>49</line>
+          <line>56</line>
           <properties class="loginTests.Tests" method="testRegisterNewUser">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SmokeTest.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
