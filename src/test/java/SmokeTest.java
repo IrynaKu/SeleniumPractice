@@ -76,6 +76,7 @@ public class SmokeTest {
     public void openPage(){
         driver.get(baseUrl);
         driver.get(baseUrl);
+        driver.get(baseUrl);
     }
 
 
