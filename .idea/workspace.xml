@@ -96,10 +96,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Tests.testEnterExistingEmail" />
+        <item itemvalue="TestNG.Tests.registerNewUser" />
         <item itemvalue="TestNG.SmokeTest.smokeTest" />
         <item itemvalue="TestNG.SearchTests.checkSearch" />
-        <item itemvalue="TestNG.Tests.registerNewUser" />
-        <item itemvalue="TestNG.Tests.testEnterExistingEmail" />
+        <item itemvalue="TestNG.SmokeTest.smokeTest" />
       </list>
     </recent_temporary>
   </component>
