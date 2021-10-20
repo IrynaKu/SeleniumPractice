@@ -72,5 +72,12 @@ public class SmokeTest {
         Assert.assertEquals(actualResult, expectedResult);
     }
 
+    @Test
+    public void openPage(){
+        driver.get(baseUrl);
+    }
+
+
+
 
 }
