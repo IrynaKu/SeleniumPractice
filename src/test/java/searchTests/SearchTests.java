@@ -20,7 +20,7 @@ public class SearchTests {
     String baseUrl;
 
     @BeforeMethod
-    public void Set() {
+    public void set() {
 //
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();

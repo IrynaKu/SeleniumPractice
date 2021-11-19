@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e23fd1ea-9cee-4979-818d-fcfb2920cb7e" name="Default Changelist" comment="">
+    <list default="true" id="e23fd1ea-9cee-4979-818d-fcfb2920cb7e" name="Default Changelist" comment="test commit6">
+      <change afterPath="$PROJECT_DIR$/src/test/java/searchTests/searchForWebstaurant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SmokeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SmokeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/searchTests/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/searchTests/SearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SmokeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SmokeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/searchTests/SearchTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/searchTests/SearchTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,25 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="TestNG.SmokeTest.smokeTest">
-    <configuration name="SearchTests.checkSearch" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="searchTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="searchTests" />
-      <option name="MAIN_CLASS_NAME" value="searchTests.SearchTests" />
-      <option name="METHOD_NAME" value="checkSearch" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.searchForWebstaurant.checkSearch">
     <configuration name="SmokeTest.smokeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumLearn" />
       <option name="PACKAGE_NAME" value="" />
@@ -94,12 +79,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="searchForWebstaurant" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="searchTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="searchTests" />
+      <option name="MAIN_CLASS_NAME" value="searchTests.searchForWebstaurant" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="searchForWebstaurant.checkSearch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="searchTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="searchTests" />
+      <option name="MAIN_CLASS_NAME" value="searchTests.searchForWebstaurant" />
+      <option name="METHOD_NAME" value="checkSearch" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.searchForWebstaurant.checkSearch" />
+        <item itemvalue="TestNG.searchForWebstaurant" />
         <item itemvalue="TestNG.Tests.testEnterExistingEmail" />
         <item itemvalue="TestNG.Tests.registerNewUser" />
-        <item itemvalue="TestNG.SmokeTest.smokeTest" />
-        <item itemvalue="TestNG.SearchTests.checkSearch" />
         <item itemvalue="TestNG.SmokeTest.smokeTest" />
       </list>
     </recent_temporary>
@@ -141,63 +161,79 @@
       <option name="project" value="LOCAL" />
       <updated>1634741312851</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test commit6">
+      <created>1634743539524</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1634743539524</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit" />
     <MESSAGE value="test commit2" />
-    <option name="LAST_COMMIT_MESSAGE" value="test commit2" />
+    <MESSAGE value="test commit6" />
+    <option name="LAST_COMMIT_MESSAGE" value="test commit6" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1634474612919">
+    <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1637328185655">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1634474612919" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1634742547162">
+    <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1637328185655" />
+    <state x="396" y="45" key="#xdebugger.evaluate" timestamp="1637331806660">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1634742547162" />
-    <state width="1237" height="19" key="GridCell.Tab.0.bottom" timestamp="1634485908660">
+    <state x="396" y="45" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1637331806660" />
+    <state x="293" y="0" width="987" height="680" key="CommitChangelistDialog2" timestamp="1637358034971">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="19" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1634485908660" />
-    <state width="1237" height="19" key="GridCell.Tab.0.center" timestamp="1634485908644">
+    <state x="293" y="0" width="987" height="680" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1637358034971" />
+    <state width="1281" height="81" key="GridCell.Tab.0.bottom" timestamp="1637357781152">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="19" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1634485908644" />
-    <state width="1237" height="19" key="GridCell.Tab.0.left" timestamp="1634485908644">
+    <state width="1281" height="81" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1637357781152" />
+    <state width="1281" height="81" key="GridCell.Tab.0.center" timestamp="1637357781151">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="19" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1634485908644" />
-    <state width="1237" height="19" key="GridCell.Tab.0.right" timestamp="1634485908660">
+    <state width="1281" height="81" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1637357781151" />
+    <state width="1281" height="81" key="GridCell.Tab.0.left" timestamp="1637357781151">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="19" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1634485908660" />
-    <state width="1237" height="19" key="GridCell.Tab.1.bottom" timestamp="1634485908660">
+    <state width="1281" height="81" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1637357781151" />
+    <state width="1281" height="81" key="GridCell.Tab.0.right" timestamp="1637357781152">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="19" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1634485908660" />
-    <state width="1237" height="19" key="GridCell.Tab.1.center" timestamp="1634485908660">
+    <state width="1281" height="81" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1637357781152" />
+    <state width="1281" height="202" key="GridCell.Tab.1.bottom" timestamp="1637332471630">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="19" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1634485908660" />
-    <state width="1237" height="19" key="GridCell.Tab.1.left" timestamp="1634485908660">
+    <state width="1281" height="202" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1637332471630" />
+    <state width="1281" height="202" key="GridCell.Tab.1.center" timestamp="1637332471630">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="19" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1634485908660" />
-    <state width="1237" height="19" key="GridCell.Tab.1.right" timestamp="1634485908660">
+    <state width="1281" height="202" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1637332471630" />
+    <state width="1281" height="202" key="GridCell.Tab.1.left" timestamp="1637332471629">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="19" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1634485908660" />
+    <state width="1281" height="202" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1637332471629" />
+    <state width="1281" height="202" key="GridCell.Tab.1.right" timestamp="1637332471630">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1281" height="202" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1637332471630" />
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1637326403288">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1637326403288" />
     <state x="37" y="0" key="SettingsEditor" timestamp="1633986027099">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="37" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1633986027099" />
-    <state x="233" y="75" key="Vcs.Push.Dialog.v2" timestamp="1634742621625">
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2" timestamp="1634743549859">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1634742621625" />
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1634743549859" />
     <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1634742476371">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -206,6 +242,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1633985765834" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1637323916092">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1637323916092" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -222,6 +262,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/SmokeTest.java</url>
           <line>69</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/searchTests/searchForWebstaurant.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
