@@ -51,6 +51,8 @@ public class SearchTests {
             String productName = productsList.get(i).getText();
             Assert.assertTrue(productName.contains("Dress"));
         }
+
+
     }
 
 
